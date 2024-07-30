@@ -1,0 +1,60 @@
+:root {
+  --primary-green: #4452bf;
+  --text-primary: #333333;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
+
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#__next,
+body {
+
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  background: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+#__next {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+body {
+  min-height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: var(--text-primary);
+  font-family: 'Anuphan', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
